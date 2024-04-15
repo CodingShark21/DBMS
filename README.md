@@ -16,3 +16,11 @@ Navigate to the project folder and install the required packages:
 cd DBMS
 pip install -r requirements.txt
 ```
+## Configure the Database
+Make the required changes in default.yaml under the DatabaseConfig section to connect to your PostgreSQL database.
+
+## Run the Project
+To run the project, use the following command:
+```bash
+streamlit run metrics.py
+```
