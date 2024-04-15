@@ -1,5 +1,11 @@
-# DBMS_Term_Project
-A wrapper/interface which collect query processing metrics like table statistics, CPU/memory usage in run time while executing a query
+# Project Setup
 
-Interface Built using 'stremlit' python library
-It takes your query, processes it using psql and then shows metrics like Query Identifier, Planning time, Execution time, Actual Rows, Plan width, CPU Usage, Planning Time, Memory Usage, Throughput.
+## Assumptions
+- Python and Git are installed.
+- The PostgreSQL database file `Chinook_PostgreSql.sql` is set up.
+
+## Clone the Repository
+Clone the GitHub repository:
+```bash
+git clone https://github.com/CodingShark21/DBMS.git
+
